@@ -8,16 +8,12 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.ImportResource;
 import org.springframework.jmx.export.annotation.AnnotationMBeanExporter;
-import org.springframework.transaction.annotation.AnnotationTransactionAttributeSource;
-import org.springframework.transaction.interceptor.TransactionAttributeSource;
-import org.springframework.transaction.interceptor.TransactionInterceptor;
-import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+
 
 /**
  * Created by prochiy on 08.07.17.
  */
 
-//@ImportResource("classpath:applicationContext.xml")
 @ComponentScan(basePackages = {"ru.marinin"})
 @Configuration
 public class LocalConfig {

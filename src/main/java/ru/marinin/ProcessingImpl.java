@@ -96,7 +96,7 @@ public class ProcessingImpl implements Processing {
         sqlResult.show();
 
 
-        sqlResult.write().option("mode", "DROPMALFORMED").format("parquet").save("src/main/resources/result.parquent");
+        sqlResult.write().format("parquet").save("src/main/resources/result.parquent");
 
     }
 
